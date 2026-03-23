@@ -4,11 +4,13 @@
 
 #define PI 3.14159
 
+
+
 double rectangle_area(int height, int width) {
   return width * height;
 }
 
-void find_circle_area(double radius) {
+double find_circle_area(double radius) {
   return PI * radius * radius;
 }
 
